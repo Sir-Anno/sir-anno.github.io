@@ -99,6 +99,36 @@ button {
     }
 }
 
+.project-cards {
+    margin-top: 1rem;
+    
+    .card {
+        background-color: #333;
+
+        .card-image {
+            width: 100%;
+        }
+
+        .card-details {
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+
+            .card-button {
+                color: white;
+                background-color: #00a2ff;
+                padding: 1rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
+
 
 #about {
     background-color: #00a2ff;
@@ -231,6 +261,16 @@ button {
 
         .social-icons {
             justify-content: start;
+        }
+    }
+
+    .project-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        
+        .card {
+            flex: 1 0 20vw
         }
     }
 } 
