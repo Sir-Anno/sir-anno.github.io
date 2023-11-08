@@ -44,13 +44,8 @@ footer{
 }
 
 form {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: .2rem;
 
     input, textarea {
@@ -99,12 +94,8 @@ button {
     .social-icons {
         font-size: 2rem;
         margin-top: 1rem;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        align-items: center;
     }
 }
 
@@ -120,13 +111,8 @@ button {
 
         .card-details {
             margin: 1rem;
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
+            flex-direction: column;
 
             .card-button {
                 color: white;
@@ -134,12 +120,8 @@ button {
                 padding: 1rem;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
-                display: -webkit-box;
-                display: -ms-flexbox;
                 display: flex;
-                -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                        justify-content: center;
+                justify-content: center;
             }
         }
     }
@@ -179,15 +161,9 @@ button {
 }
 
 #message-sent {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 
     text-align: center;
 
@@ -206,18 +182,13 @@ button {
     }
 
     .social-icons {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        justify-content: center;
+        align-items: center;
         font-size: 2rem;
         gap: 1rem;
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .container {
@@ -228,15 +199,9 @@ button {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     nav {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        justify-content: center;
+        align-items: center;
 
         .heading {
             width: 100%;
@@ -245,12 +210,8 @@ button {
         }
 
         .social-icons {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: end;
-                -ms-flex-pack: end;
-                    justify-content: end;
+            justify-content: end;
             font-size: 2rem;
             gap: 1rem;
         }
@@ -261,25 +222,17 @@ button {
     }
 
     .skills-details {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
 
         div {
-            -webkit-box-flex: 1;
-                -ms-flex: 1;
-                    flex: 1;
+            flex: 1;
         }
     }
 
     .contact-details {
         .social-icons {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
+            justify-content: center;
             gap: 1rem;
         }
     }
@@ -288,15 +241,11 @@ button {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1280px) {
     .contact-details {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         gap: 1rem;
 
         div {
-            -webkit-box-flex: 1;
-                -ms-flex: 1;
-                    flex: 1;
+            flex: 1;
         }
 
         h1, h3 {
@@ -312,24 +261,17 @@ button {
         }
 
         .social-icons {
-            -webkit-box-pack: start;
-                -ms-flex-pack: start;
-                    justify-content: start;
+            justify-content: start;
         }
     }
 
     .project-cards {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         gap: 1rem;
         
         .card {
-            -webkit-box-flex: 1;
-                -ms-flex: 1 0 20vw;
-                    flex: 1 0 20vw
+            flex: 1 0 20vw
         }
     }
 } 
