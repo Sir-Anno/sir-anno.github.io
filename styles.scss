@@ -145,6 +145,29 @@ button {
     min-height: 50vh;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+}
+
+
+.wipe-in {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: linearwipe 2s steps(100, end);
+}
+  
+@keyframes linearwipe{ 
+    from { width: 0; } 
+}
+
 
 #about {
     background-color: #00a2ff;
@@ -256,6 +279,7 @@ button {
     .skills-details {
         display: flex;
         min-height: 20vh;
+        gap: 1rem;
 
         div {
             flex: 1;
